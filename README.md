@@ -20,7 +20,7 @@ An easy tool to access server via TCP/UDP.
 	python echo_server.py
 	```
 
-	Echo server provide some options to configure.
+	Echo server provides some options to configure.
 	```
 	echo_server.py [-h] [--p P] [--e E] [--rp RP] [--dp DP]
 
@@ -29,7 +29,7 @@ An easy tool to access server via TCP/UDP.
 	--p P       Protocol mode. (TCP/UDP)
 	--e E       Set encoding/decoding mode. (ascii, utf-8, big-5... etc)
 	--rp RP     Reception port. (Binding port)
-	--dp DP     Destination port. (If you run server in UDP port)
+	--dp DP     Destination port. (If you run server in UDP mode)
 	```
 	
 	```
