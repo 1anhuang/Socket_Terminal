@@ -37,9 +37,7 @@ def help():
 
 	print('	help()')
 	print('	- Show command list.\n')
-
-	print('	cls()')
-	print('	- Clear all message on cosole.\n')
+	
 
 	
 def tcp_create_connection(s, ip, port):
