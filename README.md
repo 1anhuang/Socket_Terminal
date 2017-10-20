@@ -116,10 +116,10 @@ An easy tool to access server via TCP/UDP.
 		>>> connectTCP(127.0.0.1, 7788)
 		Create connection successfully.
 
-		(127.0.0.1:7788) >>>setEncodingMode(ascii)
-		(127.0.0.1:7788) >>>hello server
+		(127.0.0.1:7788) >>> setEncodingMode(ascii)
+		(127.0.0.1:7788) >>> hello server
 		hello server
-		(127.0.0.1:7788) >>>close()
+		(127.0.0.1:7788) >>> close()
 
 		>>> exit()
 

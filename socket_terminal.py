@@ -6,9 +6,6 @@ import binascii
 sofware_version = '1.0.0.0'
 
 
-# Global information
-
-
 
 def help():
 	print('\nCommand list:')
@@ -37,7 +34,6 @@ def help():
 
 	print('	help()')
 	print('	- Show command list.\n')
-	
 
 	
 def tcp_create_connection(s, ip, port):
@@ -184,7 +180,7 @@ def command_process():
 	is_tcp_protocol = True
 
 	while(not exit_flag):
-		input_line = input('(%s:%d) >>>' % (ip, server_port)) if client_socket is not None else input('>>> ')
+		input_line = input('(%s:%d) >>> ' % (ip, server_port)) if client_socket is not None else input('>>> ')
 		command = ''
 		parameters = None
 
